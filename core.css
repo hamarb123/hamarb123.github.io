@@ -8,5 +8,6 @@ p.a {
 	font-size: 15pt;
 }
 div.a {
-	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
