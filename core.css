@@ -1,19 +1,235 @@
-@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400');
+
 h1.a {
 	font-family: 'Comfortaa', cursive;
-	font-size: 30pt;
+	font-size: 50pt;
+    margin: auto;
+	text-align: center;
+	font-weight: 400;
 }
+
+h1.a-light {
+	font-family: 'Comfortaa', cursive;
+	font-size: 50pt;
+    margin: auto;
+	text-align: center;
+	font-weight: 300;
+}
+
+h1.b {
+	font-family: 'Comfortaa', cursive;
+	font-size: 40pt;
+    margin: auto;
+	text-align: center;
+	font-weight: 300;
+}
+
+h1.c {
+	font-family: 'Comfortaa', cursive;
+	font-size: 30pt;
+    margin: auto;
+	text-align: center;
+	font-weight: 300;
+}
+
+h1.d {
+	font-family: 'Comfortaa', cursive;
+	font-size: 25pt;
+    margin: auto;
+	text-align: center;
+	font-weight: 300;
+}
+
+h1.e {
+	font-family: 'Comfortaa', cursive;
+	font-size: 15pt;
+    margin: auto;
+	text-align: center;
+	font-weight: 300;
+}
+
+h1.f {
+	font-family: 'Comfortaa', cursive;
+	font-size: 10pt;
+    margin: auto;
+	text-align: center;
+	font-weight: 300;
+}
+
+h1.g {
+	font-family: 'Comfortaa', cursive;
+	font-size: 7.25pt;
+    margin: auto;
+	text-align: center;
+	font-weight: 300;
+}
+
 p.a {
 	font-family: 'Comfortaa', cursive;
 	font-size: 15pt;
+    margin: auto;
+	text-align: center;
+	font-weight: 300;
 }
+
 div.a {
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+	text-align: center;
 }
+
 img.discord {
 	
 }
+
 img.youtube {
 	
+}
+
+img.gmail-help {
+	
+}
+
+img.windows7 {
+	
+}
+
+img.windows8 {
+	
+}
+
+img.windows10 {
+	
+}
+
+img.hamarb123-store {
+	
+}
+
+img.microsoft-store {
+	
+}
+
+li.image-container {
+	display:inline-block;
+	margin: 5pt;
+	position:relative;
+}
+
+ul.frame {
+	position: absolute;
+	list-style: none;
+	left: 50%;
+	transform: translateX(-50%);
+	margin: 0;
+	padding: 0;
+	height: 90px;
+}
+
+a.unchanging, a:hover.unchanging, a:visited.unchanging, a:active.unchanging {
+	color: black;
+	text-decoration: none;
+	padding: 0;
+}
+
+a.underlined, a:hover.underlined, a:visited.underlined, a:active.underlined {
+	text-decoration: underline;
+}
+
+button.a {
+	background-color: white;
+	color: black;
+	border: 3pt solid #4CAF50;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	display: inline-block;
+	border-radius: 3pt;
+	text-align: center;
+	padding: 15pt 37.5pt 15pt 37.5pt;
+	transition: all 0.5s;
+	margin: 3.75pt 3.75pt 3.75pt 3.75pt;
+}
+
+button.a:hover {
+	border: 3pt solid #4CAF50;
+	box-shadow: 0 9pt 12pt 0 rgba(0,0,0,0.24), 0 12.25pt 37.5pt 0 rgba(0,0,0,0.19);
+	border-radius: 3pt;
+	background-color: #4CAF50;
+	color: white;
+	padding: 24px 30px 16px 30px;
+	margin: 0.75pt 3.75pt 6.75pt 3.75pt;
+}
+
+button.a h1 {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+button.a h1:after {
+	content: ' \00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -15pt;
+	transition: 0.5s;
+}
+
+button.a:hover h1 {
+	padding-right: 30pt;
+}
+
+button.a:hover h1:after {
+	opacity: 1;
+	right: 0;
+}
+
+div.b {
+	margin-bottom: 3.75pt;
+	margin-top: 3.75pt;
+	padding-bottom: 18pt;
+	padding-top: 18pt;
+	vertical-align: center;
+	line-height: height;
+}
+
+div.menu-outer {
+	
+}
+
+div.table {
+	display: table;
+	margin: 0 auto;
+}
+
+ul.horizontal-list {
+	list-style: none;
+	display: inline-block;
+	margin: 0 auto;
+	width: 100%;
+	padding: 0;
+}
+
+li.a {
+	margin: 5pt;
+}
+
+li.b {
+	margin: 10pt;
+}
+
+ul.horizontal-list li {
+	display: inline-block;
+	margin-bottom: 0pt;
+}
+
+ul.horizontal-list a, ul.horizontal-list li a {
+	display: inline-block;
+}
+
+br {
+	margin: 0;
+	padding: 0;
+	width: 0;
 }
