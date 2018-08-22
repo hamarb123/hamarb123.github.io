@@ -64,6 +64,10 @@ h1.g {
 	font-weight: 300;
 }
 
+h1.h {
+	text-align: left;
+}
+
 p.a {
 	font-family: 'Comfortaa', cursive;
 	font-size: 15pt;
@@ -232,4 +236,15 @@ br {
 	margin: 0;
 	padding: 0;
 	width: 0;
+}
+
+table.a, tr.a {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th.a {
+    border: 1px solid black;
+    border-collapse: collapse;
+	padding: 5pt 5pt 5pt 5pt;
 }
