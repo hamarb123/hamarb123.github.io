@@ -68,6 +68,10 @@ h1.h {
 	text-align: left;
 }
 
+h1.i {
+	font-weight: 400;
+}
+
 p.a {
 	font-family: 'Comfortaa', cursive;
 	font-size: 15pt;
