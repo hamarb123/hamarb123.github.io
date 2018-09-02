@@ -1,0 +1,1 @@
+load("eula_.html", function(variable) { document.getElementById("eula").innerHTML = variable; });

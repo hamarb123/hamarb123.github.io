@@ -40,9 +40,25 @@ h1.d {
 	font-weight: 300;
 }
 
+h1.de {
+	font-family: 'Comfortaa', cursive;
+	font-size: 20pt;
+    margin: auto;
+	text-align: center;
+	font-weight: 300;
+}
+
 h1.e {
 	font-family: 'Comfortaa', cursive;
 	font-size: 15pt;
+    margin: auto;
+	text-align: center;
+	font-weight: 300;
+}
+
+h1.ef {
+	font-family: 'Comfortaa', cursive;
+	font-size: 12pt;
     margin: auto;
 	text-align: center;
 	font-weight: 300;
@@ -64,12 +80,28 @@ h1.g {
 	font-weight: 300;
 }
 
+h1.gh {
+	font-family: 'Comfortaa', cursive;
+	font-size: 5pt;
+    margin: auto;
+	text-align: center;
+	font-weight: 300;
+}
+
 h1.h {
 	text-align: left;
 }
 
 h1.i {
 	font-weight: 400;
+}
+
+h1.j {
+	font-family: Arial;
+}
+
+span.a {
+	font-weight: bold;
 }
 
 p.a {
