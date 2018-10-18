@@ -1,5 +1,6 @@
 var urlprefix = "store/changelog/"
 
+loadversion(urlprefix, "1.0.12");
 loadversion(urlprefix, "1.0.11");
 loadversion(urlprefix, "1.0.10");
 loadversion(urlprefix, "1.0.9");
