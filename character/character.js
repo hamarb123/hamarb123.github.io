@@ -67,17 +67,10 @@ function generateCharacter()
 		alert("Please enter a legal number (cannot do character 0).");
 	}
 }
-const copyToClipboard = str => {
-	const el = document.createElement('textarea');
-	el.value = str;
-	document.body.appendChild(el);
-	el.select();
-	document.execCommand('copy');
-	document.body.removeChild(el);
-};
 function copyCharacter()
 {
-	copyToClipboard(window.output3.value);
+	window.output3.select();
+	document.execCommand('copy');
 }
 function generateCharacters()
 {
