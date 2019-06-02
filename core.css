@@ -288,3 +288,19 @@ th.a {
 body.a {
 	background: #9df0ff;
 }
+
+textarea.de {
+	font-family: 'Comfortaa', cursive;
+	font-size: 20pt;
+    margin: auto;
+	text-align: center;
+	font-weight: 300;
+}
+
+textarea.resizevertical {
+	resize: vertical;
+}
+
+textarea.noresize {
+	resize: none;
+}
