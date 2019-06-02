@@ -77,7 +77,7 @@ const copyToClipboard = str => {
 };
 function copyCharacter()
 {
-	copyToClipboard(window.output2.value);
+	copyToClipboard(window.output3.value);
 }
 function generateCharacters()
 {
