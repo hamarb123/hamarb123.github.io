@@ -1,231 +1,142 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link href="../core.css" rel="stylesheet">
-		<link rel="shortcut icon" type="image/png" href="../hamarb123.png" />
+		<link href="/core.css" rel="stylesheet">
+		<link rel="shortcut icon" type="image/png" href="/hamarb123.png" />
 		<title>hamarb123</title>
+		<script src="character.js"></script>
 	</head>
-	<script src="character.js"></script>
 	<body class="a">
-		<h1 class="e">
-			<br/>
-		</h1>
 		<div class="a">
-			<h1 class="a">
-				<a href="../index.html" class="unchanging underlined">hamarb123 - Home</a><br/>
-			</h1>
-			<br/>
-			<div class="menu-outer">
-				<div class="table">
-					<ul class="horizontal-list">
-						<li class="b">
-							<a href="../discord.html">
-								<img src="../discord.png" alt="Discord" class="discord" height="45pt" width="75pt"/>
-							</a>
-						</li><li class="b">
-							<a href="../2dcraftchannel.html">
-								<img src="../youtube.png" alt="Youtube" class="youtube" height="45pt" width="201pt"/>
-							</a>
-						</li><li class="b">
-							<a href="mailto:hamarb123.help@gmail.com" target="_blank">
-								<img src="../gmail help.png" alt="Email contact" class="gmail-help" height="45pt" width="63pt"/>
-							</a>
-						</li>
-					</ul>
-				</div>
+			<div name="header">
+				<div name="parameter" pName="text" pValue="Character generation programs"></div>
+				<div name="parameter" pName="breaksize" pValue="c"></div>
 			</div>
-			<h1 class="b">
-				<br/>
-			</h1>
-			<h1 class="a-light">
-				Character generation programs
-			</h1>
-			<h1 class="c">
-				<br/>
-			</h1>
-			<table align="center">
-				<tr><th>
-					<h1 class="c h">
-						Table of contents:
-					</h1>
-				</th></tr>
-				<tr><th>
-					<h1 class="e">
-						<ul>
-							<li>
-								<h1 class="c">
-									<a href="#identify" class="unchanging underlined">
-										<h1 class="d h">
-											Identify characters codes in text
-										</h1>
-									</a>
-								</h1>
-							</li><li>
-								<h1 class="c">
-									<a href="#hextodec" class="unchanging underlined">
-										<h1 class="d h">
-											Hex to decimal converter
-										</h1>
-									</a>
-								</h1>
-							</li><li>
-								<h1 class="c">
-									<a href="#fromcodepoint" class="unchanging underlined">
-										<h1 class="d h">
-											Character from codepoint
-										</h1>
-									</a>
-								</h1>
-							</li><li>
-								<h1 class="c">
-									<a href="#range" class="unchanging underlined">
-										<h1 class="d h">
-											Generate characters in a range
-										</h1>
-									</a>
-								</h1>
-							</li>
-						</ul>
-					</h1>
-				</th></tr>
-			</table>
-			<h1 class="e">
-				<br/>
-			</h1>
-			<h1 class="c" id="identify">
-				Identify characters codes in text
-				<br/>
-				<h1 class="f">
-					<br/>
-				</h1>
-				<textarea rows="3" cols="50" class="de resizevertical" id="input1"></textarea>
-				<h1 class="f">
-					<br/>
-				</h1>
-				<button class="a" onclick="identifyChars()">
-					<h1 class="c">
-						Identify
-					</h1>
-				</button>
-				<br/>
-				<h1 class="f">
-					<br/>
-				</h1>
-				<textarea rows="3" cols="50" class="de resizevertical" id="output1" readonly></textarea>
-				<br/>
-			</h1>
-			<h1 class="c">
-				<br/>
-			</h1>
-			<h1 class="c" id="hextodec">
-				Hex to decimal converter (without U+)
-				<br/>
-				<h1 class="f">
-					<br/>
-				</h1>
-				<textarea rows="1" cols="20" class="de noresize" id="input2"></textarea>
-				<h1 class="f">
-					<br/>
-				</h1>
-				<button class="a" onclick="hexToDec()">
-					<h1 class="c">
-						Hex to decimal
-					</h1>
-				</button>
-				<button class="a" onclick="decToHex()">
-					<h1 class="c">
-						Decimal to hex
-					</h1>
-				</button>
-				<br/>
-				<h1 class="f">
-					<br/>
-				</h1>
-				<textarea rows="1" cols="20" class="de noresize" id="output2" readonly></textarea>
-				<br/>
-				<h1 class="f">
-					<br/>
-				</h1>
-				<br/>
-			</h1>
-			<h1 class="c">
-				<br/>
-			</h1>
-			<h1 class="c" id="fromcodepoint">
-				Character from codepoint (in hex, without U+)
-				<br/>
-				<h1 class="f">
-					<br/>
-				</h1>
-				<textarea rows="1" cols="20" class="de noresize" id="input3"></textarea>
-				<h1 class="f">
-					<br/>
-				</h1>
-				<button class="a" onclick="generateCharacter()">
-					<h1 class="c">
-						Generate
-					</h1>
-				</button>
-				<br/>
-				<h1 class="f">
-					<br/>
-				</h1>
-				<textarea rows="1" cols="20" class="de noresize" id="output3" readonly></textarea>
-				<br/>
-				<h1 class="f">
-					<br/>
-				</h1>
-				<button class="a" onclick="copyCharacter()">
-					<h1 class="c">
-						Copy to clipboard
-					</h1>
-				</button>
-				<br/>
-				<h1 class="f">
-					<br/>
-				</h1>
-				<br/>
-			</h1>
-			<h1 class="c">
-				<br/>
-			</h1>
-			<h1 class="c" id="range">
-				Generate characters in a range (in hex, without U+)
-				<br/>
-				<h1 class="f">
-					<br/>
-				</h1>
-				<textarea rows="1" cols="20" class="de noresize" id="input4_1">0001</textarea>
-				<br/>
-				<textarea rows="1" cols="20" class="de noresize" id="input4_2">FFFF</textarea>
-				<h1 class="f">
-					<br/>
-				</h1>
-				<button class="a" onclick="generateCharacters()">
-					<h1 class="c">
-						Generate
-					</h1>
-				</button>
-				<br/>
-				<h1 class="f">
-					<br/>
-				</h1>
-				<textarea rows="10" cols="20" class="de resizevertical" id="output4" readonly></textarea>
-				<br/>
-				<h1 class="f">
-					<br/>
-				</h1>
-			</h1>
-			<h1 class="c">
-				<br/>
-			</h1>
-			<h1 class="c">
-				<a href="#top" class="unchanging underlined">
-					<h1 class="c">
-						Top
-					</h1>
-				</a>
-			</h1>
+			<div name="tableofcontents">
+				<div name="parameter" pName="text" pValue="Identify characters codes in text"></div>
+				<div name="parameter" pName="link" pValue="#identify"></div>
+				<div name="parameter" pName="text" pValue="Hex to decimal converter"></div>
+				<div name="parameter" pName="link" pValue="#hextodec"></div>
+				<div name="parameter" pName="text" pValue="Character from codepoint"></div>
+				<div name="parameter" pName="link" pValue="#fromcodepoint"></div>
+				<div name="parameter" pName="text" pValue="Generate characters in a range"></div>
+				<div name="parameter" pName="link" pValue="#range"></div>
+			</div>
+			<div name="break">
+				<div name="parameter" pName="size" pValue="d"></div>
+			</div>
+			<div id="identify"></div>
+			<div name="title">
+				<div name="parameter" pName="text" pValue="Identify characters codes in text"></div>
+				<div name="parameter" pName="size" pValue="c"></div>
+			</div>
+			<div name="break">
+				<div name="parameter" pName="size" pValue="f"></div>
+			</div>
+			<textarea rows="3" cols="50" class="de resizevertical" id="input1"></textarea>
+			<div name="break">
+				<div name="parameter" pName="size" pValue="f"></div>
+			</div>
+			<div name="button">
+				<div name="parameter" pName="text" pValue="Identify"></div>
+				<div name="parameter" pName="onclick" pValue="identifyChars()"></div>
+			</div>
+			<div name="break">
+				<div name="parameter" pName="size" pValue="f"></div>
+			</div>
+			<textarea rows="3" cols="50" class="de resizevertical" id="output1" readonly></textarea>
+			<div name="break">
+				<div name="parameter" pName="size" pValue="b"></div>
+			</div>
+			
+			<div id="hextodec"></div>
+			<div name="title">
+				<div name="parameter" pName="text" pValue="Hex to decimal converter (without U+)"></div>
+				<div name="parameter" pName="size" pValue="c"></div>
+			</div>
+			<div name="break">
+				<div name="parameter" pName="size" pValue="f"></div>
+			</div>
+			<textarea rows="1" cols="20" class="de noresize" id="input2"></textarea>
+			<div name="break">
+				<div name="parameter" pName="size" pValue="f"></div>
+			</div>
+			<div name="button">
+				<div name="parameter" pName="text" pValue="Hex to decimal"></div>
+				<div name="parameter" pName="onclick" pValue="hexToDec()"></div>
+			</div>
+			<div name="button">
+				<div name="parameter" pName="text" pValue="Decimal to hex"></div>
+				<div name="parameter" pName="onclick" pValue="decToHex()"></div>
+			</div>
+			<div name="break">
+				<div name="parameter" pName="size" pValue="f"></div>
+			</div>
+			<textarea rows="1" cols="20" class="de noresize" id="output2" readonly></textarea>
+			<div name="break">
+				<div name="parameter" pName="size" pValue="b"></div>
+			</div>
+			
+			<div id="fromcodepoint"></div>
+			<div name="title">
+				<div name="parameter" pName="text" pValue="Character from codepoint (in hex, without U+)"></div>
+				<div name="parameter" pName="size" pValue="c"></div>
+			</div>
+			<div name="break">
+				<div name="parameter" pName="size" pValue="f"></div>
+			</div>
+			<textarea rows="1" cols="20" class="de noresize" id="input3"></textarea>
+			<div name="break">
+				<div name="parameter" pName="size" pValue="f"></div>
+			</div>
+			<div name="button">
+				<div name="parameter" pName="text" pValue="Generate"></div>
+				<div name="parameter" pName="onclick" pValue="generateCharacter()"></div>
+			</div>
+			<div name="break">
+				<div name="parameter" pName="size" pValue="f"></div>
+			</div>
+			<textarea rows="1" cols="20" class="de noresize" id="output3" readonly></textarea>
+			<div name="break">
+				<div name="parameter" pName="size" pValue="f"></div>
+			</div>
+			<div name="button">
+				<div name="parameter" pName="text" pValue="Copy to clipboard"></div>
+				<div name="parameter" pName="onclick" pValue="copyCharacter()"></div>
+			</div>
+			<div name="break">
+				<div name="parameter" pName="size" pValue="b"></div>
+			</div>
+			
+			<div id="range"></div>
+			<div name="title">
+				<div name="parameter" pName="text" pValue="Generate characters in a range (in hex, without U+)"></div>
+				<div name="parameter" pName="size" pValue="c"></div>
+			</div>
+			<div name="break">
+				<div name="parameter" pName="size" pValue="f"></div>
+			</div>
+			<textarea rows="1" cols="20" class="de noresize" id="input4_1">0001</textarea><br/>
+			<textarea rows="1" cols="20" class="de noresize" id="input4_2">FFFF</textarea>
+			<div name="break">
+				<div name="parameter" pName="size" pValue="f"></div>
+			</div>
+			<div name="button">
+				<div name="parameter" pName="text" pValue="Generate"></div>
+				<div name="parameter" pName="onclick" pValue="generateCharacters()"></div>
+			</div>
+			<div name="break">
+				<div name="parameter" pName="size" pValue="f"></div>
+			</div>
+			<textarea rows="10" cols="20" class="de resizevertical" id="output4" readonly></textarea>
+			<div name="break">
+				<div name="parameter" pName="size" pValue="f"></div>
+			</div>
+			<div name="break">
+				<div name="parameter" pName="size" pValue="c"></div>
+			</div>
+			<div name="top"></div>
 		</div>
 	</body>
+	<script src="/core.js"></script>
 </html>

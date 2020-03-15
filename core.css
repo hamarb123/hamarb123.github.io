@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400');
 
-h1.a {
+h1.a
+{
 	font-family: 'Comfortaa', cursive;
 	font-size: 50pt;
     margin: auto;
@@ -8,7 +9,8 @@ h1.a {
 	font-weight: 400;
 }
 
-h1.a-light {
+h1.a-light
+{
 	font-family: 'Comfortaa', cursive;
 	font-size: 50pt;
     margin: auto;
@@ -16,7 +18,8 @@ h1.a-light {
 	font-weight: 300;
 }
 
-h1.b {
+h1.b
+{
 	font-family: 'Comfortaa', cursive;
 	font-size: 40pt;
     margin: auto;
@@ -24,7 +27,8 @@ h1.b {
 	font-weight: 300;
 }
 
-h1.c {
+h1.c
+{
 	font-family: 'Comfortaa', cursive;
 	font-size: 30pt;
     margin: auto;
@@ -32,7 +36,8 @@ h1.c {
 	font-weight: 300;
 }
 
-h1.d {
+h1.d
+{
 	font-family: 'Comfortaa', cursive;
 	font-size: 25pt;
     margin: auto;
@@ -40,7 +45,8 @@ h1.d {
 	font-weight: 300;
 }
 
-h1.de {
+h1.de
+{
 	font-family: 'Comfortaa', cursive;
 	font-size: 20pt;
     margin: auto;
@@ -48,7 +54,8 @@ h1.de {
 	font-weight: 300;
 }
 
-h1.e {
+h1.e
+{
 	font-family: 'Comfortaa', cursive;
 	font-size: 15pt;
     margin: auto;
@@ -56,7 +63,8 @@ h1.e {
 	font-weight: 300;
 }
 
-h1.ef {
+h1.ef
+{
 	font-family: 'Comfortaa', cursive;
 	font-size: 12pt;
     margin: auto;
@@ -64,7 +72,8 @@ h1.ef {
 	font-weight: 300;
 }
 
-h1.f {
+h1.f
+{
 	font-family: 'Comfortaa', cursive;
 	font-size: 10pt;
     margin: auto;
@@ -72,7 +81,8 @@ h1.f {
 	font-weight: 300;
 }
 
-h1.g {
+h1.g
+{
 	font-family: 'Comfortaa', cursive;
 	font-size: 7.25pt;
     margin: auto;
@@ -80,7 +90,8 @@ h1.g {
 	font-weight: 300;
 }
 
-h1.gh {
+h1.gh
+{
 	font-family: 'Comfortaa', cursive;
 	font-size: 5pt;
     margin: auto;
@@ -88,23 +99,28 @@ h1.gh {
 	font-weight: 300;
 }
 
-h1.h {
+h1.h
+{
 	text-align: left;
 }
 
-h1.i {
+h1.i
+{
 	font-weight: 400;
 }
 
-h1.j {
+h1.j
+{
 	font-family: Arial;
 }
 
-span.a {
+span.a
+{
 	font-weight: bold;
 }
 
-p.a {
+p.a
+{
 	font-family: 'Comfortaa', cursive;
 	font-size: 15pt;
     margin: auto;
@@ -112,50 +128,61 @@ p.a {
 	font-weight: 300;
 }
 
-div.a {
+div.a
+{
     margin: auto;
 	text-align: center;
 }
 
-img.discord {
+img.discord
+{
 	
 }
 
-img.youtube {
+img.youtube
+{
 	
 }
 
-img.gmail-help {
+img.gmail-help
+{
 	
 }
 
-img.windows7 {
+img.windows7
+{
 	
 }
 
-img.windows8 {
+img.windows8
+{
 	
 }
 
-img.windows10 {
+img.windows10
+{
 	
 }
 
-img.hamarb123-store {
+img.hamarb123-store
+{
 	
 }
 
-img.microsoft-store {
+img.microsoft-store
+{
 	
 }
 
-li.image-container {
+li.image-container
+{
 	display:inline-block;
 	margin: 5pt;
 	position:relative;
 }
 
-ul.frame {
+ul.frame
+{
 	position: absolute;
 	list-style: none;
 	left: 50%;
@@ -165,17 +192,20 @@ ul.frame {
 	height: 90px;
 }
 
-a.unchanging, a:hover.unchanging, a:visited.unchanging, a:active.unchanging {
+a.unchanging, a:hover.unchanging, a:visited.unchanging, a:active.unchanging
+{
 	color: black;
 	text-decoration: none;
 	padding: 0;
 }
 
-a.underlined, a:hover.underlined, a:visited.underlined, a:active.underlined {
+a.underlined, a:hover.underlined, a:visited.underlined, a:active.underlined
+{
 	text-decoration: underline;
 }
 
-button.a {
+button.a
+{
 	background-color: white;
 	color: black;
 	border: 3pt solid #4CAF50;
@@ -190,7 +220,8 @@ button.a {
 	margin: 3.75pt 3.75pt 3.75pt 3.75pt;
 }
 
-button.a:hover {
+button.a:hover
+{
 	border: 3pt solid #4CAF50;
 	box-shadow: 0 9pt 12pt 0 rgba(0,0,0,0.24), 0 12.25pt 37.5pt 0 rgba(0,0,0,0.19);
 	border-radius: 3pt;
@@ -200,14 +231,16 @@ button.a:hover {
 	margin: 0.75pt 3.75pt 6.75pt 3.75pt;
 }
 
-button.a h1 {
+button.a h1
+{
 	cursor: pointer;
 	display: inline-block;
 	position: relative;
 	transition: 0.5s;
 }
 
-button.a h1:after {
+button.a h1:after
+{
 	content: ' \00bb';
 	position: absolute;
 	opacity: 0;
@@ -216,16 +249,19 @@ button.a h1:after {
 	transition: 0.5s;
 }
 
-button.a:hover h1 {
+button.a:hover h1
+{
 	padding-right: 30pt;
 }
 
-button.a:hover h1:after {
+button.a:hover h1:after
+{
 	opacity: 1;
 	right: 0;
 }
 
-div.b {
+div.b
+{
 	margin-bottom: 3.75pt;
 	margin-top: 3.75pt;
 	padding-bottom: 18pt;
@@ -234,16 +270,19 @@ div.b {
 	line-height: height;
 }
 
-div.menu-outer {
+div.menu-outer
+{
 	
 }
 
-div.table {
+div.table
+{
 	display: table;
 	margin: 0 auto;
 }
 
-ul.horizontal-list {
+ul.horizontal-list
+{
 	list-style: none;
 	display: inline-block;
 	margin: 0 auto;
@@ -251,45 +290,54 @@ ul.horizontal-list {
 	padding: 0;
 }
 
-li.a {
+li.a
+{
 	margin: 5pt;
 }
 
-li.b {
+li.b
+{
 	margin: 10pt;
 }
 
-ul.horizontal-list li {
+ul.horizontal-list li
+{
 	display: inline-block;
 	margin-bottom: 0pt;
 }
 
-ul.horizontal-list a, ul.horizontal-list li a {
+ul.horizontal-list a, ul.horizontal-list li a
+{
 	display: inline-block;
 }
 
-br {
+br
+{
 	margin: 0;
 	padding: 0;
 	width: 0;
 }
 
-table.a, tr.a {
+table.a, tr.a
+{
     border: 1px solid black;
     border-collapse: collapse;
 }
 
-th.a {
+th.a
+{
     border: 1px solid black;
     border-collapse: collapse;
 	padding: 5pt 5pt 5pt 5pt;
 }
 
-body.a {
+body.a
+{
 	background: #9df0ff;
 }
 
-textarea.de {
+textarea.de
+{
 	font-family: 'Comfortaa', cursive;
 	font-size: 20pt;
     margin: auto;
@@ -297,10 +345,12 @@ textarea.de {
 	font-weight: 300;
 }
 
-textarea.resizevertical {
+textarea.resizevertical
+{
 	resize: vertical;
 }
 
-textarea.noresize {
+textarea.noresize
+{
 	resize: none;
 }
