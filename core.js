@@ -313,6 +313,13 @@ setNamedElementsAdvanced("compatibility", function(params, innerHTML)
 	<img src="/microsoft store.svg" alt="Available on the Microsoft Store" class="microsoft-store" height="120pt" width="164pt"/>
 </li>`;
 			}
+			if (platforms[i] === 'osx')
+			{
+			returnValue += 
+`<li class="a">
+	<img src="/osx.svg" alt="Available on OS X" class="osx" height="120pt" width="120pt"/>
+</li>`;
+			}
 		}
 	}
 	returnValue = 
