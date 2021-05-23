@@ -329,9 +329,22 @@ table.a, tr.a
     border-collapse: collapse;
 }
 
+table.b, tr.b
+{
+    border: 0px solid black;
+    border-collapse: collapse;
+}
+
 th.a
 {
     border: 1px solid black;
+    border-collapse: collapse;
+	padding: 5pt 5pt 5pt 5pt;
+}
+
+th.b
+{
+    border: 0px solid black;
     border-collapse: collapse;
 	padding: 5pt 5pt 5pt 5pt;
 }
