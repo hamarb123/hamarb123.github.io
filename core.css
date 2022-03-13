@@ -372,3 +372,7 @@ textarea.noresize
 {
 	resize: none;
 }
+
+details.inlinesummary summary > * {
+    display: inline;
+}
